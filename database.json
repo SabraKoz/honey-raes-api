@@ -37,10 +37,10 @@
         "isStaff": true
       },
       {
-        "email": "jeremy@bakker.com",
+        "id": 7,
         "fullName": "Jeremy Bakker",
-        "isStaff": true,
-        "id": 7
+        "email": "jeremy@bakker.com",
+        "isStaff": true
       }
     ],
     "customers": [
@@ -67,7 +67,7 @@
       {
         "id": 1,
         "specialty": "Macbook Pros",
-        "rate": "100",
+        "rate": 100,
         "userId": 4
       },
       {
@@ -81,6 +81,12 @@
         "specialty": "Printer Repair",
         "rate": 29.45,
         "userId": 6
+      },
+      {
+        "id": 4,
+        "specialty": "Phone screen repairs",
+        "rate": 50,
+        "userId": 7
       }
     ],
     "serviceTickets": [
